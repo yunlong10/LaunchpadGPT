@@ -107,6 +107,8 @@ with torch.no_grad():
                 y = model.generate(x, max_new_tokens, temperature=temperature, top_k=top_k)
                 
                 completion = process_completion(decode(y[0].tolist()))
-                print(completion)
                 
                 write_completion(completion, image_copy, contours, out_path=f'outputs/val_outs/out_{i}.png')
+                print('---------------')
+                print(f'completion: {completion}')
+                print('---------------')
