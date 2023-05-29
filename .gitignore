@@ -1,0 +1,14 @@
+.vscode/*
+*.npy
+*.h5
+*.hdf5
+*.pkl
+*.jar
+*.zip
+.cache/
+__pycache__/
+*.pt
+*.pth
+.ipynb_checkpoints
+*.txt
+*.bin
