@@ -3,7 +3,7 @@ repo for ICMC 2023 paper: LaunchpadGPT: Language Model as Music Visualization De
 
 ### Quick Start
 
-1. download the prompt-completion pairs' data `prompt_completion.txt` from [[Google Drive]](https://drive.google.com/file/d/1ZBQtDop9jGhcSjpZwWKHC-k6QK4pVNe-/view?usp=sharing), and put it in the `./data` folder.
+1. download the prompt-completion pairs' data `prompt_completion.txt` from [[here]](https://drive.google.com/file/d/1ZBQtDop9jGhcSjpZwWKHC-k6QK4pVNe-/view?usp=sharing), and put it in the `./data` folder.
 
 2. turn `prompt_completion.txt` from raw text into one large stream of integers:
 
@@ -29,3 +29,23 @@ python sample.py --out_dir=out-launchpad-gpt --start='{"prompt": [-29.44, 108.58
 The generated Launchpad can be found in `./outputs/sample_outs`
 
 ### Inference
+
+The `infer.py` can generate the Launchpads with validation data `val_prompts.json`.
+
+
+```shell
+python infer.py
+```
+The results will be saved in the `./outputs/val_outs`
+
+### Evaluation
+
+To evaluate the results, you can download the ground-truth data `gt_frame` from [[here]](https://drive.google.com/file/d/13UNtQgTKaUJomo3vxwBuUC7W25sRYqgz/view?usp=sharing) to `./outputs`.
+
+Then run the script to calculate the scores:
+
+```shell
+python -m pytorch_fid outputs/gt_frames outputs/val_outs
+```
+
+The original Launchpad-playing video can be downloaded from [[here]](https://drive.google.com/file/d/1ikugWFBwkRm0V6AlDoRswdC3knrvLZCt/view?usp=sharing).
