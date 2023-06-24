@@ -1,5 +1,7 @@
 # LaunchpadGPT
-repo for ICMC 2023 paper: LaunchpadGPT: Language Model as Music Visualization Designer on Launchpad
+This repo is for ICMC 2023 paper: LaunchpadGPT: Language Model as Music Visualization Designer on Launchpad
+
+<img src="/framework.png"> 
 
 ### Quick Start
 
@@ -49,3 +51,6 @@ python -m pytorch_fid outputs/gt_frames outputs/val_outs
 ```
 
 The original Launchpad-playing video can be downloaded from [[here]](https://drive.google.com/file/d/1ikugWFBwkRm0V6AlDoRswdC3knrvLZCt/view?usp=sharing).
+
+### Acknowledgement
+The project is based on [NanoGPT](https://github.com/karpathy/nanoGPT), . Thanks for the authors for their efforts.
