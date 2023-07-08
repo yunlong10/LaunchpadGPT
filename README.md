@@ -5,7 +5,7 @@ This repo is for ICMC 2023 paper: LaunchpadGPT: Language Model as Music Visualiz
 
 ### Quick Start
 
-1. download the prompt-completion pairs' data `prompt_completion.txt` from [[here]](https://drive.google.com/file/d/1ZBQtDop9jGhcSjpZwWKHC-k6QK4pVNe-/view?usp=sharing), and put it in the `./data` folder.
+1. download the prompt-completion pairs' data `prompt_completion.txt` from [[here]](https://drive.google.com/file/d/1ZBQtDop9jGhcSjpZwWKHC-k6QK4pVNe-/view?usp=sharing), and put it in the `./data` folder. 
 
 2. turn `prompt_completion.txt` from raw text into one large stream of integers:
 
