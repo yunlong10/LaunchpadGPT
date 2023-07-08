@@ -1,5 +1,5 @@
 # LaunchpadGPT
-This repo is for ICMC 2023 paper: LaunchpadGPT: Language Model as Music Visualization Designer on Launchpad
+This repo is for paper accepted by ICMC 2023: LaunchpadGPT: Language Model as Music Visualization Designer on Launchpad 
 
 <img src="/framework.png"> 
 
