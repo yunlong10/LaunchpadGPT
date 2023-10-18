@@ -53,4 +53,4 @@ python -m pytorch_fid outputs/gt_frames outputs/val_outs
 The original Launchpad-playing video can be downloaded from [[here]](https://drive.google.com/file/d/1ikugWFBwkRm0V6AlDoRswdC3knrvLZCt/view?usp=sharing).
 
 ### Acknowledgement
-The project is based on [NanoGPT](https://github.com/karpathy/nanoGPT), [midfox](http://midifox.com/). Thanks for the authors for their efforts.
+The project is based on [NanoGPT](https://github.com/karpathy/nanoGPT), [midifox](http://midifox.com/). Thanks for the authors for their efforts.
