@@ -50,7 +50,19 @@ Then run the script to calculate the scores:
 python -m pytorch_fid outputs/gt_frames outputs/val_outs
 ```
 
+
 The original Launchpad-playing video can be downloaded from [[here]](https://drive.google.com/file/d/1ikugWFBwkRm0V6AlDoRswdC3knrvLZCt/view?usp=sharing).
 
 ### Acknowledgement
 The project is based on [NanoGPT](https://github.com/karpathy/nanoGPT), [midifox](http://midifox.com/). Thanks for the authors for their efforts.
+
+
+If you find our survey useful for your research, please cite the following paper:
+```bibtex
+@article{xu2023launchpadgpt,
+  title={Launchpadgpt: Language model as music visualization designer on launchpad},
+  author={Xu, Siting and Tang, Yunlong and Zheng, Feng},
+  journal={arXiv preprint arXiv:2307.04827},
+  year={2023}
+}
+```
